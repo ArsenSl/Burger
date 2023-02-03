@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+}
+#head{
+    width: 100%;
+    height: 700px;
+    background-image: url("img/fon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 21px;
+    text-align: center;
+    position: relative;
+}
+#first_menu_wrapper{
+    width: 100%;
+    height: 38px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#alma{
+    margin: 8px 50px;
+}
+#menu_list{
+    list-style-type: none;
+    color: white;
+    margin: 10px 0;
+}
+.menu_part{
+    display: inline-flex;
+    position: relative;
+}
+#menu_list{
+    display: inline-flex;
+    margin: 10px 57px;
+}
+.wnyz{
+    margin: 0 20px;
+}
+.widstyp{
+    margin: 0  48px 0 0;
+}
+.button_menu{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    border: none;
+    width: 70px;
+    height: 38px;
+    box-sizing: border-box;
+    margin: -10px 7px;
+}
+.button_menu_next{
+    margin: -10px 7px;
+    background: #0C4A34;
+    border: 2px solid #0C4A34;
+    border-radius: 4px;
+    width: 140px;
+    height: 38px;
+    color: white;
+    box-sizing: border-box;
+}
+.text_almamakes{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.54px;
+    color: #FFFFFF;
+    margin-top: 145px;
+}
+.text_menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+.brouse{
+    width: 200px;
+    height: 50px;
+    background: #0C4A34;
+    border: 2px solid #0C4A34;
+    border-radius: 4px;
+    margin-top: 49px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+.what_help{
+    margin-top: 115px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.what_help_wrapper{
+    margin: 0 6px;
+    display: inline-flex;
+}
+.rectangle{
+    position: absolute;
+    top: 648px;
+    left: 774px;
+}
+.wprawo{
+    margin: 5.5px 20px ;
+}
+.sing_up{
+    background: #497557;
+    box-shadow: 0px 2px 12px rgba(23, 35, 33, 0.1);
+    border-radius: 2px;
+    width: 312px;
+    height: 200px;
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+    text-align: left;
+}
+.sing_up_button{
+    margin-left:24px ;
+    width: 88px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    border: none;
+}
+.subscribe{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    margin-left:24px ;
+    margin-top: 33px;
+}
+.get{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    margin-left:24px ;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.aetna_img{
+    width: 131px;
+    height: 60px;
+    margin-top: 20px;
+}
+.therapists{
+    margin-top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5B5855;
+}.around{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.burger{
+    width: 115.48px;
+    padding: 10px 5px;
+    background-color: #497557;
+    border-radius: 10px;
+    position: fixed;
+    top: 50px;
+    opacity: 0%;
+}
+.burger_menu_list{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    
+}
+.wnyz.active{
+    transform: rotateX(180deg);
+}
+.vud{
+    opacity: 100%;
+}
